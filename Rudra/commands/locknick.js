@@ -1,7 +1,7 @@
 const fs = require("fs-extra");
 const path = require("path");
 
-const OWNER_UID = "61550558518720"; // Your UID
+const OWNER_UID = "61573328623221"; // Your UID
 
 const NICKNAME_LOCK_FILE = path.join(__dirname, "../data/locked_nicknames.json");
 
@@ -31,7 +31,7 @@ function saveLockedNicknames(data) {
 module.exports.config = { // Changed from module.exports = { config: { ... }
     name: "locknick",
     version: "2.3.0", // Version update for this fix
-    author: "Your Name",
+    author: "KRISHNA",
     hasPermssion: 0, // <--- ADDED THIS PROPERTY (from lockname.js)
     credits: "Rudra x ChatGPT", // <--- ADDED THIS PROPERTY (from lockname.js)
     description: "Group mein nicknames lock/unlock kare", // Using description from your lockname
